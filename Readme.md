@@ -1,7 +1,3 @@
-Here’s a `README.md` for your **Dummy Systemd Service** project in the same style as your Netdata example:
-
----
-
 # 🛠 Dummy Systemd Service
 
 This project demonstrates how to **create a custom systemd service** on Linux that executes a bash script and logs output, helping you learn service automation and permissions management.
