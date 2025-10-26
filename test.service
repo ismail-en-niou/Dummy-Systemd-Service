@@ -1,0 +1,17 @@
+[Unit]
+Description=Just a test to create a service
+Documentation=https://bugs.academy
+After=network.target
+
+[Service]
+User=ismail
+Group=ismail
+Type=simple
+WorkingDirectory=/home/ismail/Desktop/devops_path/Dummy-Systemd-Service
+ExecStart=/bin/bash /home/ismail/Desktop/devops_path/Dummy-Systemd-Service/script.sh
+Restart=on-failure
+RestartSec=3
+
+
+[Install]
+WantedBy=multi-user.target
